@@ -17,10 +17,10 @@
   to {transform:rotate(360deg);}
 }
 
-#animate {
+#lol {
   animation-name: wow;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   transform-origin: center;
-  transform: translateX(50000px);
+  transform: translateX(1000px);
 }
