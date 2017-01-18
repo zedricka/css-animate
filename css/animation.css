@@ -1,0 +1,26 @@
+#rotate {
+    transform:rotate(160deg);
+}
+
+#skew {
+    transform:skew(20deg, 20deg);
+}
+
+#all {
+    transform:rotate(130deg);
+    transform: skew(130deg,130deg);
+    transform: translate(111,111);
+}
+
+@keyframes wow {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+#animate {
+  animation-name: wow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  transform: translateX(50000px);
+}
