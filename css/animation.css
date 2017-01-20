@@ -17,10 +17,24 @@
   to {transform:rotate(360deg);}
 }
 
-#lol {
+#animate {
   animation-name: wow;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   transform-origin: center;
   transform: translateX(1000px);
+}
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+#noot {
+  animation-name: spin;
+  animation: spin .1s linear infinite;
+  animation-play-state: paused;
+}
+
+#noot:hover{
+  animation-play-state: running;
 }
